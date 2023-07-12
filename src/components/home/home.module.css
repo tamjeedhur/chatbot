@@ -1,0 +1,148 @@
+.mainContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+.chatBox{
+
+    width: 464px ;
+    background-color: #FFFFFF;
+    border: 0px solid #eaecf0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+.chatBoxHeader{
+height: 60px ;
+font-weight: 700;
+font-size: 1.125rem;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #2563eb;
+color: #FFFFFF;
+padding:0px 16px ;
+}
+
+.Icon svg {
+  width: 15px; /* Adjust the size for HomeSharpIcon */
+  height: 20px;
+}
+
+.homeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+width: 100%;
+} 
+.home{
+    width: 100%;
+}
+.gptPic > img{   
+border-radius: 50px;
+height: 80px;
+width: 80px;
+}
+
+.chatBoxBody{
+    height: 721px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gptBold{
+    font-size: 24px;
+    margin-top: 24px;
+    color: #101828;
+        font-weight: 700;
+}
+.gptNormal{
+    font-size: 16px;
+    margin-top: 8px;
+    color: #475467;
+}
+.gptButtonContainer{
+    margin-top: 24px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+   align-items: center;
+}
+.gptButton1{
+height: 40px;
+background-color: #2563eb;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+column-gap: 5px;
+align-items: center;
+width: 160px;
+font-weight: 600;
+border-radius: 8px;
+border: 1px solid #2563eb;
+cursor: pointer;
+
+}
+.gptButton2{
+height: 40px;
+background-color: #2563eb;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+column-gap: 5px;
+align-items: center;
+width: 185px;
+font-weight: 600;
+border-radius: 8px;
+border: 1px solid #2563eb;
+cursor: pointer;
+
+
+}
+
+.bottomBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 58px;
+    border-top: 1px solid rgb(234 236 240);
+    border-bottom: 1px solid rgb(234 236 240);
+
+}
+
+.barOption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        font-weight: 500;
+            font-size: .875rem;
+            color: #475467;
+}
+.barOption:hover{
+color: #2563eb;
+}
+.footer{
+    height:37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px ;
+    column-gap:  0.375rem;
+}
+.right{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.right > img{
+height: 15px;
+margin-right: 3px;
+}
+
+.left{
+    color: #98A1B2;
+}
